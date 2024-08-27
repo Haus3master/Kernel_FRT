@@ -11,7 +11,7 @@ A few caveats:
    e. sudo ln -s python2.7 python
 
 2. The drivers "drivers/input/touchscreen/mediatek/GT1151/gt1x_tpd.c" and "drivers/input/touchscreen/mediatek/GT5663/gt1x_tpd.c" have been modified to allow the touchscreen to work in recovery mode.
-   If you wish to revert these changes, replace them with their original drivers present in the "touch_drivers_untouched" branch.
+   If you wish to revert these changes, replace them with their original drivers present in "main" branch. And the drivers modified for recovery touchscreen is in the "touchscreen_drivers untouched", apologies for the confusion.
 
 Build Instructions:
 
